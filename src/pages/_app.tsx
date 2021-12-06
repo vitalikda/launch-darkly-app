@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
  */
 export default withLDProvider<AppProps>({
   // fallback to prod client side id
-  clientSideID: process.env.LAUNCHDARKLY_CLIENT_SIDE_ID!,
+  clientSideID: process.env.LAUNCH_DARKLY_CLIENT_SIDE_ID!,
   // User configuration: https://docs.launchdarkly.com/sdk/features/user-config
   user: {
     anonymous: true
